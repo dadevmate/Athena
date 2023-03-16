@@ -7,18 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		58073C5C29BECE1100555B89 /* HomeworkGenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58073C5B29BECE1100555B89 /* HomeworkGenApp.swift */; };
-		58073C5E29BECE1100555B89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58073C5D29BECE1100555B89 /* ContentView.swift */; };
-		58073C6029BECE1200555B89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58073C5F29BECE1200555B89 /* Assets.xcassets */; };
 		58073C6329BECE1200555B89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58073C6229BECE1200555B89 /* Preview Assets.xcassets */; };
+		58073C6B29BED86400555B89 /* ChatGPTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 58073C6A29BED86400555B89 /* ChatGPTSwift */; };
+		58073C9329BEE9AF00555B89 /* ChatGPTAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58073C9229BEE9AF00555B89 /* ChatGPTAPI.swift */; };
+		58073C9529BEE9B300555B89 /* ChatGPTAPIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58073C9429BEE9B300555B89 /* ChatGPTAPIModels.swift */; };
+		58073C9729BEE9BA00555B89 /* DotLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58073C9629BEE9BA00555B89 /* DotLoadingView.swift */; };
+		58073C9929BEE9C100555B89 /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58073C9829BEE9C100555B89 /* MessageRowView.swift */; };
+		58073C9B29BEE9C500555B89 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58073C9A29BEE9C500555B89 /* ViewModel.swift */; };
+		58073C9D29BEE9CB00555B89 /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58073C9C29BEE9CB00555B89 /* MessageRow.swift */; };
+		58073CA329BEEA2C00555B89 /* XCAChatGPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58073CA229BEEA2C00555B89 /* XCAChatGPTApp.swift */; };
+		58073CA529BEEAA000555B89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58073CA429BEEAA000555B89 /* ContentView.swift */; };
+		58073CA729BEEC3C00555B89 /* Cool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58073CA629BEEC3C00555B89 /* Cool.swift */; };
+		58073CAD29BEFF5900555B89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58073CAC29BEFF5900555B89 /* Assets.xcassets */; };
+		58073CAF29BF0C3A00555B89 /* EnglishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58073CAE29BF0C3A00555B89 /* EnglishView.swift */; };
+		58073CB129BF0C4400555B89 /* MathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58073CB029BF0C4400555B89 /* MathView.swift */; };
+		58073CB329BF0C5000555B89 /* ChemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58073CB229BF0C5000555B89 /* ChemView.swift */; };
+		58073CB529BF0C7D00555B89 /* PhysicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58073CB429BF0C7D00555B89 /* PhysicsView.swift */; };
+		58073CB729BF0C8900555B89 /* BioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58073CB629BF0C8900555B89 /* BioView.swift */; };
+		58073CB929BF0C9400555B89 /* GeogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58073CB829BF0C9400555B89 /* GeogView.swift */; };
+		58073CBB29BF0C9E00555B89 /* ArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58073CBA29BF0C9E00555B89 /* ArtView.swift */; };
+		58073CBD29BF0CA900555B89 /* LanguagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58073CBC29BF0CA900555B89 /* LanguagesView.swift */; };
+		58073CC229BF122300555B89 /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 58073CC129BF122300555B89 /* OpenAISwift */; };
+		58073CC429BF24A400555B89 /* DalleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58073CC329BF24A400555B89 /* DalleViewModel.swift */; };
+		58073CC629BF251500555B89 /* DalleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58073CC529BF251500555B89 /* DalleView.swift */; };
+		58073CC929BF258900555B89 /* OpenAIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 58073CC829BF258900555B89 /* OpenAIKit */; };
+		58073CCB29BF262D00555B89 /* MessageIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58073CCA29BF262D00555B89 /* MessageIndicatorView.swift */; };
+		58073CCD29BF263800555B89 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58073CCC29BF263800555B89 /* MessageView.swift */; };
+		58073CCF29BF264900555B89 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58073CCE29BF264900555B89 /* Message.swift */; };
+		58073CD129BF345400555B89 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58073CD029BF345400555B89 /* AvatarView.swift */; };
+		58073CD329BF3A6B00555B89 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58073CD229BF3A6A00555B89 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		58073C5829BECE1100555B89 /* HomeworkGen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeworkGen.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		58073C5B29BECE1100555B89 /* HomeworkGenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkGenApp.swift; sourceTree = "<group>"; };
-		58073C5D29BECE1100555B89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		58073C5F29BECE1200555B89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58073C6229BECE1200555B89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		58073C9229BEE9AF00555B89 /* ChatGPTAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatGPTAPI.swift; path = ../../../Documents/ChatGPTSwiftUI/Shared/ChatGPTAPI.swift; sourceTree = "<group>"; };
+		58073C9429BEE9B300555B89 /* ChatGPTAPIModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatGPTAPIModels.swift; path = ../../../Documents/ChatGPTSwiftUI/Shared/ChatGPTAPIModels.swift; sourceTree = "<group>"; };
+		58073C9629BEE9BA00555B89 /* DotLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DotLoadingView.swift; path = ../../../Documents/ChatGPTSwiftUI/Shared/DotLoadingView.swift; sourceTree = "<group>"; };
+		58073C9829BEE9C100555B89 /* MessageRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageRowView.swift; path = ../../../Documents/ChatGPTSwiftUI/Shared/MessageRowView.swift; sourceTree = "<group>"; };
+		58073C9A29BEE9C500555B89 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewModel.swift; path = ../../../Documents/ChatGPTSwiftUI/Shared/ViewModel.swift; sourceTree = "<group>"; };
+		58073C9C29BEE9CB00555B89 /* MessageRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageRow.swift; path = ../../../Documents/ChatGPTSwiftUI/Shared/MessageRow.swift; sourceTree = "<group>"; };
+		58073CA229BEEA2C00555B89 /* XCAChatGPTApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XCAChatGPTApp.swift; path = ../../../Documents/ChatGPTSwiftUI/XCAChatGPT/XCAChatGPTApp.swift; sourceTree = "<group>"; };
+		58073CA429BEEAA000555B89 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../Documents/ChatGPTSwiftUI/Shared/ContentView.swift; sourceTree = "<group>"; };
+		58073CA629BEEC3C00555B89 /* Cool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cool.swift; path = ../../../Documents/ChatGPTSwiftUI/Shared/Cool.swift; sourceTree = "<group>"; };
+		58073CAC29BEFF5900555B89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../ChatGPT API Test/ChatGPT API Test/Assets.xcassets"; sourceTree = "<group>"; };
+		58073CAE29BF0C3A00555B89 /* EnglishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishView.swift; sourceTree = "<group>"; };
+		58073CB029BF0C4400555B89 /* MathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathView.swift; sourceTree = "<group>"; };
+		58073CB229BF0C5000555B89 /* ChemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemView.swift; sourceTree = "<group>"; };
+		58073CB429BF0C7D00555B89 /* PhysicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsView.swift; sourceTree = "<group>"; };
+		58073CB629BF0C8900555B89 /* BioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioView.swift; sourceTree = "<group>"; };
+		58073CB829BF0C9400555B89 /* GeogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeogView.swift; sourceTree = "<group>"; };
+		58073CBA29BF0C9E00555B89 /* ArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtView.swift; sourceTree = "<group>"; };
+		58073CBC29BF0CA900555B89 /* LanguagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagesView.swift; sourceTree = "<group>"; };
+		58073CC329BF24A400555B89 /* DalleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DalleViewModel.swift; path = "../../../Documents/SwiftUI-ChatGPT-DALL-E-2/OpenAI chat-dalle/ViewModels/DalleViewModel.swift"; sourceTree = "<group>"; };
+		58073CC529BF251500555B89 /* DalleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DalleView.swift; sourceTree = "<group>"; };
+		58073CCA29BF262D00555B89 /* MessageIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageIndicatorView.swift; path = "../../../Documents/SwiftUI-ChatGPT-DALL-E-2/OpenAI chat-dalle/Views/Messages/MessageIndicatorView.swift"; sourceTree = "<group>"; };
+		58073CCC29BF263800555B89 /* MessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageView.swift; path = "../../../Documents/SwiftUI-ChatGPT-DALL-E-2/OpenAI chat-dalle/Views/Messages/MessageView.swift"; sourceTree = "<group>"; };
+		58073CCE29BF264900555B89 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Message.swift; path = "../../../Documents/SwiftUI-ChatGPT-DALL-E-2/OpenAI chat-dalle/Models/Message.swift"; sourceTree = "<group>"; };
+		58073CD029BF345400555B89 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		58073CD229BF3A6A00555B89 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../../Calcula/Shared/Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +73,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58073CC229BF122300555B89 /* OpenAISwift in Frameworks */,
+				58073C6B29BED86400555B89 /* ChatGPTSwift in Frameworks */,
+				58073CC929BF258900555B89 /* OpenAIKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +101,31 @@
 		58073C5A29BECE1100555B89 /* HomeworkGen */ = {
 			isa = PBXGroup;
 			children = (
-				58073C5B29BECE1100555B89 /* HomeworkGenApp.swift */,
-				58073C5D29BECE1100555B89 /* ContentView.swift */,
-				58073C5F29BECE1200555B89 /* Assets.xcassets */,
+				58073C9429BEE9B300555B89 /* ChatGPTAPIModels.swift */,
+				58073CA229BEEA2C00555B89 /* XCAChatGPTApp.swift */,
+				58073CC529BF251500555B89 /* DalleView.swift */,
+				58073C9629BEE9BA00555B89 /* DotLoadingView.swift */,
+				58073CA429BEEAA000555B89 /* ContentView.swift */,
+				58073CD029BF345400555B89 /* AvatarView.swift */,
+				58073CAE29BF0C3A00555B89 /* EnglishView.swift */,
+				58073CB029BF0C4400555B89 /* MathView.swift */,
+				58073CB229BF0C5000555B89 /* ChemView.swift */,
+				58073CD229BF3A6A00555B89 /* Launch Screen.storyboard */,
+				58073CC329BF24A400555B89 /* DalleViewModel.swift */,
+				58073CB429BF0C7D00555B89 /* PhysicsView.swift */,
+				58073CCE29BF264900555B89 /* Message.swift */,
+				58073CCA29BF262D00555B89 /* MessageIndicatorView.swift */,
+				58073CCC29BF263800555B89 /* MessageView.swift */,
+				58073CB629BF0C8900555B89 /* BioView.swift */,
+				58073CB829BF0C9400555B89 /* GeogView.swift */,
+				58073CBA29BF0C9E00555B89 /* ArtView.swift */,
+				58073CBC29BF0CA900555B89 /* LanguagesView.swift */,
+				58073C9829BEE9C100555B89 /* MessageRowView.swift */,
+				58073C9A29BEE9C500555B89 /* ViewModel.swift */,
+				58073CAC29BEFF5900555B89 /* Assets.xcassets */,
+				58073CA629BEEC3C00555B89 /* Cool.swift */,
+				58073C9C29BEE9CB00555B89 /* MessageRow.swift */,
+				58073C9229BEE9AF00555B89 /* ChatGPTAPI.swift */,
 				58073C6129BECE1200555B89 /* Preview Content */,
 			);
 			path = HomeworkGen;
@@ -83,6 +155,11 @@
 			dependencies = (
 			);
 			name = HomeworkGen;
+			packageProductDependencies = (
+				58073C6A29BED86400555B89 /* ChatGPTSwift */,
+				58073CC129BF122300555B89 /* OpenAISwift */,
+				58073CC829BF258900555B89 /* OpenAIKit */,
+			);
 			productName = HomeworkGen;
 			productReference = 58073C5829BECE1100555B89 /* HomeworkGen.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +188,11 @@
 				Base,
 			);
 			mainGroup = 58073C4F29BECE1100555B89;
+			packageReferences = (
+				58073C6929BED86400555B89 /* XCRemoteSwiftPackageReference "ChatGPTSwift" */,
+				58073CC029BF122300555B89 /* XCRemoteSwiftPackageReference "OpenAISwift" */,
+				58073CC729BF258900555B89 /* XCRemoteSwiftPackageReference "OpenAIKit" */,
+			);
 			productRefGroup = 58073C5929BECE1100555B89 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +207,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58073CD329BF3A6B00555B89 /* Launch Screen.storyboard in Resources */,
+				58073CAD29BEFF5900555B89 /* Assets.xcassets in Resources */,
 				58073C6329BECE1200555B89 /* Preview Assets.xcassets in Resources */,
-				58073C6029BECE1200555B89 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +220,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58073C5E29BECE1100555B89 /* ContentView.swift in Sources */,
-				58073C5C29BECE1100555B89 /* HomeworkGenApp.swift in Sources */,
+				58073CBD29BF0CA900555B89 /* LanguagesView.swift in Sources */,
+				58073CA729BEEC3C00555B89 /* Cool.swift in Sources */,
+				58073CAF29BF0C3A00555B89 /* EnglishView.swift in Sources */,
+				58073CC429BF24A400555B89 /* DalleViewModel.swift in Sources */,
+				58073CA329BEEA2C00555B89 /* XCAChatGPTApp.swift in Sources */,
+				58073CC629BF251500555B89 /* DalleView.swift in Sources */,
+				58073C9D29BEE9CB00555B89 /* MessageRow.swift in Sources */,
+				58073C9729BEE9BA00555B89 /* DotLoadingView.swift in Sources */,
+				58073CB729BF0C8900555B89 /* BioView.swift in Sources */,
+				58073CB329BF0C5000555B89 /* ChemView.swift in Sources */,
+				58073C9329BEE9AF00555B89 /* ChatGPTAPI.swift in Sources */,
+				58073CB129BF0C4400555B89 /* MathView.swift in Sources */,
+				58073CCD29BF263800555B89 /* MessageView.swift in Sources */,
+				58073CA529BEEAA000555B89 /* ContentView.swift in Sources */,
+				58073CBB29BF0C9E00555B89 /* ArtView.swift in Sources */,
+				58073CCB29BF262D00555B89 /* MessageIndicatorView.swift in Sources */,
+				58073CB529BF0C7D00555B89 /* PhysicsView.swift in Sources */,
+				58073CCF29BF264900555B89 /* Message.swift in Sources */,
+				58073C9929BEE9C100555B89 /* MessageRowView.swift in Sources */,
+				58073CD129BF345400555B89 /* AvatarView.swift in Sources */,
+				58073C9529BEE9B300555B89 /* ChatGPTAPIModels.swift in Sources */,
+				58073CB929BF0C9400555B89 /* GeogView.swift in Sources */,
+				58073C9B29BEE9C500555B89 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +374,15 @@
 				DEVELOPMENT_TEAM = N5QA5Q9HPB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Athena;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,6 +390,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nethan.HomeworkGen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,11 +410,15 @@
 				DEVELOPMENT_TEAM = N5QA5Q9HPB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Athena;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +426,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nethan.HomeworkGen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -339,6 +457,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		58073C6929BED86400555B89 /* XCRemoteSwiftPackageReference "ChatGPTSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alfianlosari/ChatGPTSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		58073CC029BF122300555B89 /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamrushy/OpenAISwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		58073CC729BF258900555B89 /* XCRemoteSwiftPackageReference "OpenAIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MarcoDotIO/OpenAIKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		58073C6A29BED86400555B89 /* ChatGPTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 58073C6929BED86400555B89 /* XCRemoteSwiftPackageReference "ChatGPTSwift" */;
+			productName = ChatGPTSwift;
+		};
+		58073CC129BF122300555B89 /* OpenAISwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 58073CC029BF122300555B89 /* XCRemoteSwiftPackageReference "OpenAISwift" */;
+			productName = OpenAISwift;
+		};
+		58073CC829BF258900555B89 /* OpenAIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 58073CC729BF258900555B89 /* XCRemoteSwiftPackageReference "OpenAIKit" */;
+			productName = OpenAIKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 58073C5029BECE1100555B89 /* Project object */;
 }
